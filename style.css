@@ -24,12 +24,13 @@ body {
     background-color: #1F2937;
     padding: 80px 100px;
     align-items: center;
+    gap: 52px;
 }
 
 .hero_title {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .hero_subtitle {
@@ -47,9 +48,44 @@ body {
     border-radius: 12px;
 }
 
-img {
+#hero_img {
     height: 200px;
     width: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F9FAF8;
+    padding: 60px 100px;
+}
+
+.info_title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.info_container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.info_img {
+    width: 132px;
+    height: 132px;
+    border-radius: 16px;
+    border: #1F2937;
+    border-style: solid;
+    border-width: 4px;
+    margin-bottom: 8px;
 }
 
 ul {
