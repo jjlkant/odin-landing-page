@@ -90,7 +90,7 @@ body {
 
 .quote_section {
     background-color: #E5E7EB;
-    padding: 60px 200px;
+    padding: 60px 300px;
 }
 
 .quote {
@@ -104,6 +104,46 @@ body {
     color: #1F2937;
     font-weight: 700;
     text-align: end;
+}
+
+.call_section {
+    background-color: #F9FAF8;
+    padding: 80px 200px;
+}
+
+.call_container {
+    display: flex;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border: none;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.call_header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.call_text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.call_button {
+    padding: 8px 32px;
+    border: 2px solid;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    border-radius: 12px;
+    background-color: #3882F6;
+    font-weight: 600;
+    font-size: 14px;
+    white-space: nowrap;
 }
 
 ul {
