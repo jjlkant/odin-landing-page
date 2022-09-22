@@ -146,6 +146,15 @@ body {
     white-space: nowrap;
 }
 
+.footer {
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 32px;
+    background-color: #1F2937;
+}
+
 ul {
     display: flex;
     list-style: none;
